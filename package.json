@@ -1,0 +1,19 @@
+{
+  "name": "generator-polymeres6",
+  "version": "0.1.0",
+  "description": "Polymer element generator with ES2015(ES6) sintax",
+  "files": [
+    "generators/app",
+    "generators/el"
+  ],
+  "keywords": [
+    "yeoman-generator", "polymer", "es2015", "es6"
+  ],
+  "dependencies": {
+    "js-beautify": "^1.6.3",
+    "yeoman-generator": "^0.20.3",
+    "yosay": "^1.1.1"
+  },
+  "author": "Alessio Occhipinti @lasalfamine",
+  "license": "ISC"
+}
