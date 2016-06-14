@@ -1,6 +1,6 @@
 {
   "name": "generator-polymeres6",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Polymer element generator with ES2015(ES6) sintax",
   "files": [
     "generators/app",
