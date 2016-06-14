@@ -39,7 +39,7 @@ Scaffold a new Polymer project:
 
 Available generators:
 
-- [polymeres6 (aka polymeres6:el)](#element)
+- [polymeres6](#element)
 
 **Note: Generators are to be run from the root of your app**
 
@@ -68,6 +68,18 @@ yo polymeres6 <element-name>
 The `element` generator will produce an `element-name.html` file where you can place your imports and where the generator itself will put the source link to the `element-name.js`.  
 This file will **needs to be transpiled** after the first edit of the `element-name.es6.js` file.  
 You can use easly [Babel][https://babeljs.io/] and [Gulp][http://gulpjs.com/] to make this work done.
+
+### Folder Tree good practices
+
+I decided to divided my `app` folder in:  
+
+- components
+- assets
+
+This means that the generator takes care of this and you will find that the imports within the files are referenced to this folders.  
+My idea is to put the `bower_components` inside the `assets` folder. So for example, inside the `element-name.html` you create, the import of Polymer will be like:
+
+`<link rel="import" href="../../../../assets/bower_components/polymer/polymer.html">`
 
 ## Contribute
 

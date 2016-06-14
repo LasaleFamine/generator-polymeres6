@@ -116,7 +116,7 @@ module.exports = generators.Base.extend({
       elementNameCamelCased: camelCasedEl,
       elementName: this.elementName,
       components: this.components
-    }
+    };
 
     // Copy html
     this.fs.copyTpl(
