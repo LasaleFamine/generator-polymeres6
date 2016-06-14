@@ -2,7 +2,6 @@
 [![npm downloads](https://img.shields.io/npm/dt/generator-polymeres6.svg)](http://npmjs.org/generator-polymeres6)[![Build Status](https://travis-ci.org/LasaleFamine/generator-polymeres6.svg?branch=1.0.0)](https://travis-ci.org/LasaleFamine/generator-polymeres6)
 
 
-
 # Yeoman generator for Polymer element in ES6 syntax
 
 ## Introduction to Polymer
@@ -71,7 +70,7 @@ yo polymeres6 <element-name>
 
 The `element` generator will produce an `element-name.html` file where you can place your imports and where the generator itself will put the source link to the `element-name.js`.  
 This file will **needs to be transpiled** after the first edit of the `element-name.es6.js` file.  
-You can use easly [Babel][https://babeljs.io/] and [Gulp][http://gulpjs.com/] to make this work done.
+You can use easly [Babel](https://babeljs.io/) and [Gulp](http://gulpjs.com/) to make this work done.
 
 ### Folder Tree good practices
 
