@@ -1,3 +1,7 @@
+[![npm version](https://img.shields.io/npm/v/generator-polymeres6.svg)](http://npmjs.org/generator-polymeres6)
+[![npm downloads](https://img.shields.io/npm/dt/generator-polymeres6.svg)](http://npmjs.org/generator-polymeres6)[![Build Status](https://travis-ci.org/LasaleFamine/generator-polymeres6.svg?branch=1.0.0)](https://travis-ci.org/LasaleFamine/generator-polymeres6)
+
+
 
 # Yeoman generator for Polymer element in ES6 syntax
 
