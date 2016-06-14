@@ -79,7 +79,9 @@ I decided to divided my `app` folder in:
 This means that the generator takes care of this and you will find that the imports within the files are referenced to this folders.  
 My idea is to put the `bower_components` inside the `assets` folder. So for example, inside the `element-name.html` you create, the import of Polymer will be like:
 
-`<link rel="import" href="../../../../assets/bower_components/polymer/polymer.html">`
+``` html
+<link rel="import" href="../../../../assets/bower_components/polymer/polymer.html">
+```
 
 ## Contribute
 
