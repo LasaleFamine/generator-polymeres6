@@ -1,5 +1,5 @@
 
-Copyright (c) 2016, LasaleFamine <alessio.occhipinti@gmail.com>
+Copyright (c) 2016, LasaleFamine <info@godev.space>
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
